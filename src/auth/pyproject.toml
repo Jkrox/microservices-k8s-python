@@ -1,0 +1,13 @@
+[project]
+name = "auth"
+version = "0.1.0"
+description = "Auth microservice with Flask and MySQL"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask-mysqldb>=2.0.0",
+    "flask>=3.0.3",
+    "mysqlclient>=2.2.5",
+    "python-dotenv>=1.0.1",
+    "python-jose>=3.3.0",
+]
